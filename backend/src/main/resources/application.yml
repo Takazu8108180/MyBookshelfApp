@@ -1,1 +1,13 @@
-
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  sql:
+    init:
+      schema-locations: classpath:ddl/schema.sql
+      mode: always
+      platform: postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:54321/my-bookshelf-db?autoReconnect=true&useSSL=false
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
