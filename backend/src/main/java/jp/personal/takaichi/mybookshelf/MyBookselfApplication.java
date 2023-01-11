@@ -1,4 +1,4 @@
-package jp.personal.takaichi.MyBookself;
+package jp.personal.takaichi.mybookshelf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
